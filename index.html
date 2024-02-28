@@ -15,9 +15,9 @@
             <img src="./images/logo.png" alt="logo">
             <h1>Calculadora de Medias</h1>
         </header>
-        <form>
-            <input type="text" required placeholder="Nome da Atividade" />
-            <input type="number" required placeholder="Nota" min="0" max="10" />
+        <form id="formAtividade">
+            <input id="nomeAtividade" type="text" required placeholder="Nome da Atividade" />
+            <input id="notaAtividade" type="number" required placeholder="Nota" min="0" max="10" />
             <button type="submit">Adicionar +</button>
         </form>
         <table cellspacing="0">
@@ -29,11 +29,6 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Atividade 1</td>
-                    <td>7</td>
-                    <td><img src="./images/aprovado.png" alt="aprovado" /></td>
-                </tr>
             </tbody>
             <tfoot>
                 <tr>
@@ -44,5 +39,6 @@
             </tfoot>
         </table>
     </div>
+    <script src="mais.js"></script>
 </body>
 </html>
